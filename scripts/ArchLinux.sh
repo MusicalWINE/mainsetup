@@ -14,8 +14,5 @@ chmod +x ~/winetricks && bash ~/winetricks allfonts
 rm -rf ~/tempdir
 echo "Done installing fonts!"
 
-#Clean up some stuff
-rm -rf ~/winetricks
-
 
 echo "Done with the setup! Now to install your prefered DAW, please go back to the GitLab organization and select the correct repository!"
