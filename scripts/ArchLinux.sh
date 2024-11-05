@@ -9,9 +9,13 @@ echo "Done installing necessary software!"
 
 echo "Getting the Winetricks script file to install all availble fonts!" 
 mkdir ~/tempdir
-https://gitlab.com/winemusiccreation/winetricks/-/raw/master/src/winetricks -o ~/tempdir/winetricks
-chmod +x ~/tempdir/winetricks && bash ~/tempdir/winetricks allfonts
+curl https://gitlab.com/winemusiccreation/winetricks/-/raw/master/src/winetricks -o ~/winetricks
+chmod +x ~/winetricks && bash ~/winetricks allfonts
 rm -rf ~/tempdir
 echo "Done installing fonts!"
+
+#Clean up some stuff
+rm -rf ~/winetricks
+
 
 echo "Done with the setup! Now to install your prefered DAW, please go back to the GitLab organization and select the correct repository!"
