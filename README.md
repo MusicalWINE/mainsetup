@@ -3,6 +3,6 @@ This repository will house scripts to setup WINE for music production. Other rep
 Commands:
 
 Arch Linux: 
-```curl https://gitlab.com/winemusiccreation/mainsetup/-/raw/main/scripts/ArchLinux.sh -o ~/ArchLinux.sh | chmod +x ArchLinux.sh | bash ArchLinux.sh```
+```curl https://gitlab.com/winemusiccreation/mainsetup/-/raw/main/scripts/ArchLinux.sh -o ~/ArchLinux.sh && chmod +x ~/ArchLinux.sh  &&bash ~/ArchLinux.sh```
 
 Other repositories should work, but I mainly user Arch Linux so that's the only script I can make at the moment. 
